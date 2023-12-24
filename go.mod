@@ -1,3 +1,3 @@
-module github.com/wanhanbo/GomodCase/v4
+module github.com/wanhanbo/GomodCase
 
 go 1.20

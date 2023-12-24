@@ -17,7 +17,7 @@ func SayOne(a float64) {
 }
 
 func SayRandomly() {
-	content := rand.Intn(100)
+	content := rand.Intn(1000) //fix in version v5
 	fmt.Println(content)
 	//if content < 5 {
 	//	panic("an error happens because of the unstable version")
