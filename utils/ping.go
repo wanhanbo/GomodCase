@@ -7,7 +7,7 @@ func Say(a string, b string) {
 	fmt.Printf("you say:%s and %s", a, b)
 }
 
-func SayOne(a string) {
+func SayOne(a int) {
 	fmt.Println("===go mod test case===")
-	fmt.Printf("you only say:%s ", a)
+	fmt.Printf("you only say (int):%v ", a)
 }
