@@ -22,5 +22,9 @@ func SayRandomly() {
 	//if content < 5 {
 	//	panic("an error happens because of the unstable version")
 	//} //the unstable bug has been fixed after v4.0.0-pre
+}
 
+func SayThree(a, b, c string) {
+	fmt.Println("===go mod test case===")
+	fmt.Printf("you say three words:%s,%s and %s\n", a, b, c)
 }

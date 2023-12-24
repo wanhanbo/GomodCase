@@ -7,5 +7,6 @@ func main() {
 	for i := 0; i < 10; i++ {
 		utils.SayRandomly()
 	}
+	utils.SayThree("hello", "the", "world")
 
 }
